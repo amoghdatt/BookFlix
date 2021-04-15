@@ -1,0 +1,3 @@
+- Cleaner syntax
+- Fastify hooks are a nice feature
+- 
