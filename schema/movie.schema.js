@@ -7,7 +7,8 @@ let movieSchema = mongoose.Schema({
     "duration":Number,
     "stars":Number,
     "image":String,
-    "language":String
+    "language":String,
+    "synopsis":String
 })
 
 movieSchema.method("toJson", ()=>{
