@@ -2,7 +2,7 @@ const {addNewMovie, getMovieByName, getAllMovies} = require('../controllers/movi
 
 const addMovie = async function(app){
     app.post('/movie', async(request, response)=>{
-       try{
+    try{
         let newMovie = await addNewMovie(request.body)
         response.send(newMovie)
     }catch(err){
